@@ -1,34 +1,36 @@
 {
-  "events": [
-    {
-      "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
-      "date": "January 28, 2022",
-      "time": "12:00",
-      "organizer": "Kat Laydee"
-    },
-    {
-      "id": 456,
-      "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
-    },
-    {
-      "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
-      "location": "Playa Del Carmen",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "organizer": "Carey Wales"
-    }
-  ]
+"simulations": [
+            {
+                id: 1,
+                //img:, to be completed bug #1
+                title: 'Beer Simulation',
+                description: 'Beer simul is a great tool for your shop',
+                inputs: [
+                    {bottles: 10,
+                    playerType: 'passive'
+                    }]
+            },
+            {
+                id: 2,
+                //img:, to be completed bug #1
+                title: 'Small Business model',
+                description: 'This is the second simul card',
+                inputs: [
+                    {employees: 10,
+                    fundlending: 10000,
+                    possibleoutcome: 150
+                    }]
+            },
+                        {
+                id: 3,
+                //img:, to be completed bug #1
+                title: 'CoperativeBank',
+                description: 'This is the third simul card',
+                inputs: [
+                    {minSalary: 10,
+                    maxSalary: 100,
+                    salaryRange: 10
+                    }]
+            },
+            ]
 }
