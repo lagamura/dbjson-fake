@@ -7,11 +7,7 @@
                 "inputs": [
                     {"bottles": 10,
                     "playerType": "passive"
-                    }],
-                        "inputs-obj": {
-                                    "bottles"
-                                    "playerType"
-                        }
+                    }]
             },
             {
                 "id": 2,
@@ -21,12 +17,7 @@
                     {"employees": 10,
                     "fundlending": 10000,
                     "possibleoutcome": 150
-                    }],
-                                        "inputs-obj": {
-                    "employees"
-                    "fundlending"
-                    "possibleoutcome"
-                    }
+                    }]
             },
                         {
                 "id": 3,
@@ -36,11 +27,7 @@
                     {"minSalary": 10,
                     "maxSalary": 100,
                     "salaryRange": 10
-                    }],
-                     "inputs-obj": 
-                    {
-                    "minSalary"
-                    "maxSalary"
-                    "salaryRange"
-                    }
+                    }]
+            }
+            ]
 }
